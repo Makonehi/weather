@@ -1,0 +1,117 @@
+body{
+    /*background-image: url("fon2.jpg");*/
+    /*background-repeat: no-repeat;*/
+    /*background-size: cover;*/
+    max-height: 1124px;
+}
+*{
+    padding: 0;
+
+}
+.photo_ges {
+    max-width: 160px;
+    height: auto;
+}
+.menu{
+    background-image: url("fon2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 215px;
+
+
+}
+.menu_title{
+    text-align: center;
+    color: #437394;
+
+
+}
+.line{
+    outline: 1px solid lightsteelblue;
+    height: 32px;
+
+}
+.line_menu{
+    padding-top: 13px;
+
+}
+.link_a{
+    font-size: 20px;
+    text-decoration: none;
+    color: royalblue;
+    margin-right: 20px;
+}
+.link_p{
+    color: black;
+}
+.line_input{
+    text-align: center;
+    margin-top: 40px;
+    width: 1850px;
+    height: 40px;
+}
+.button{
+    margin-bottom: 3px;
+    height: 43px;
+}
+.input{
+    outline: none;
+    border: none;
+    width: 480px;
+    height: 40px;
+    border-radius: 5px;
+    background: url("lupaa.png") no-repeat scroll 7px 10px;
+    background-size: 20px 20px;
+    padding-left: 35px;
+    background-color: azure;
+
+
+}
+.header-line{
+
+    width: 100%;
+    outline: 1px solid #4f4f7c;
+    margin: 0;
+}
+.lupa{
+
+}
+.container_main{
+    background-color: black;
+    height: 750px;
+    display: flex;
+    justify-content: space-around;
+    max-width: 1890px;
+
+}
+.package{
+    margin-top: 10px;
+    font-size: 16px;
+    min-width: 150px;
+    border: 3px solid #1e43af;
+    padding: 10px 10px;
+    border-radius: 5px;
+    height: 260px;
+}
+.package_name{
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.price{
+    color: aliceblue;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+.desclamer{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.featuris{
+    margin-left: 28px;
+
+}

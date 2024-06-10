@@ -1,0 +1,11 @@
+key - 43bdbbc04ffb7771e6c3f50c54c06fc
+пример - https://samples.openweathermap.org/data/2.5/forecast?q=M%C3%BCnchen,DE&a
+ppid=439d4b804bc8187953eb36d2a8c26a02
+https://api.openweathermap.org/data/2.5/weather?q=London&appid=543bdbbc04ffb7771e6c3f50c54c06fc
+https://openweathermap.org/img/wn02d@2x.png
+----------------------------------------------
+document.querySelector(".package_name").textContent = data.name;
+            document.querySelector(".price").innerHTML = Math.round(data.main.temp - 273)
+                + "&deg;";
+            document.querySelector(".desclamer").textContent = data.weather[0]["description"];
+q=London            document.querySelector(".featuris").innerHTML = `<img src="https://openweathermap.org/img/wn/${data.weather[0]["icon"]}@2x.png">`;
